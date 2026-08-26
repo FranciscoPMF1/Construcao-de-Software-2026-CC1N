@@ -1,0 +1,32 @@
+body {
+    background-image: url("./image/vista-guarderia.jpg");
+    background-size: cover;
+    background-position: center;
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.fotos-inicio{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.fotos-inicio img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(150, 20, 70, 0.25);
+    transition: transform 0.3s ease;
+}
